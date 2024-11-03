@@ -22,7 +22,7 @@ namespace Task
         private void HomePage()
         {
             Console.WriteLine("Welcome to Ludo Game!");
-            Console.WriteLine("Press Enter to start...");
+            Console.WriteLine("Press Enter to start....");
 
             Console.ReadLine();
             Console.Clear();
