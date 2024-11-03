@@ -38,7 +38,7 @@ namespace Task
             {
                 Console.WriteLine($"Enter the name of player {i + 1}");
                 string name = Console.ReadLine();
-                Console.WriteLine($"Enter the {name} is human  (y/n) ");
+                Console.WriteLine($"{name} is human ? Enter the (y/n) ");
                 bool ishuman = Console.ReadLine().ToLower() == "y";
                 Console.WriteLine("Enter the number of pawn of this this player: ");
                 int numberofpawns = int.Parse(Console.ReadLine());
